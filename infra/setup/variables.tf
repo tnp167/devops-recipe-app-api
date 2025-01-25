@@ -3,7 +3,7 @@ variable "tf_state_bucket" {
   default     = "devops-recipe-app-tf-state-mike"
 }
 
-variable "tf_State_lock_table" {
+variable "tf_state_lock_table" {
   description = "Name of DynamoDB table in AWS for storing TF state lock"
   default     = "devops-recipe-app-api-tf-lock"
 }
